@@ -1,4 +1,5 @@
 {
+  "name": "as-crypto",
   "scripts": {
     "asbuild:untouched": "asc assembly/index.ts -b build/untouched.wasm -t build/untouched.wat --sourceMap --debug --use abort=wasi_abort --explicitStart --runtime none",
     "asbuild:optimized": "asc assembly/index.ts -b build/optimized.wasm -t build/optimized.wat --sourceMap --optimize",
